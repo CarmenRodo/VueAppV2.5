@@ -12,7 +12,11 @@
 
 <div id="app" class="container-fluid" >
     <navbar></navbar>
-    <book-list></book-list>
+    <book-list
+    v-bind:list="BookList"
+    >
+    </book-list>
+
 
         <!-- Button trigger modal -->
 
